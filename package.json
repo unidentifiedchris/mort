@@ -1,16 +1,16 @@
 {
-  "name": "rmh",
+  "name": "mort",
   "version": "1.0.0",
-  "description": "Bot for RMH.",
+  "description": "Bot for mort.",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ChrisTheCrab",
+  "author": "unidentified",
   "license": "ISC"
 }
