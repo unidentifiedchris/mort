@@ -31,6 +31,7 @@ bot.on('message', function(message){
       ]
     message.channel.send('god', {
       file: random_mort[Math.floor(Math.random() * random_mort.length)]
+	.catch(console.error)
     });
   }
 });
