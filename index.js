@@ -37,5 +37,5 @@ bot.on('guildMemberAdd', function(member)
 	member.send("mort https://cdn.discordapp.com/attachments/603000331055530007/603810563574726666/unknown.png")
 }); 
  
-bot.login('NjA3MDE3OTgyMzQ2MDAyNDU2.XUTprg.MTbnwhMTeV_rTYa0kD15ax3QpGk')
+bot.login('NjA3MDMyMzk5ODMzODU4MDU5.XUTtaA.VjpTkuCS7H_Z6ChwyqFAC-5d0mQ')
  
