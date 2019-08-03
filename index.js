@@ -6,6 +6,9 @@ const bot = new  commando.Client({
  
  const TOKEN = 'NjA3MDE3OTgyMzQ2MDAyNDU2.XUTf7A.wMllNe-3uh9hO2alvyG4NWF8r_4'
  
+bot.registry.registerDefaults();
+bot.registry.registerCommandsIn(__dirname + '/commands');
+ 
  bot.on('ready', function(){
   console.log('mort is god');
   bot.user.setActivity(`mort`, type: "WATCHING");
