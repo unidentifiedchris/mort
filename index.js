@@ -4,7 +4,7 @@ const bot = new  commando.Client({
   commandPrefix: ':3'
  });
  
- const TOKEN = 'NjA3MDE3OTgyMzQ2MDAyNDU2.XUToLQ.hMpHL1zlu2UFl8VBNYaLO7tYg_g'
+ const TOKEN = 'NjA3MDE3OTgyMzQ2MDAyNDU2.XUTprg.MTbnwhMTeV_rTYa0kD15ax3QpGk'
  
 
 bot.on('ready', function(){
