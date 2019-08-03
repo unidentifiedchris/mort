@@ -3,9 +3,6 @@ const Discord = require('discord.js')
 const bot = new  commando.Client({
   commandPrefix: ':3'
  });
- 
- const TOKEN = 'NjA3MDE3OTgyMzQ2MDAyNDU2.XUTprg.MTbnwhMTeV_rTYa0kD15ax3QpGk'
- 
 
 bot.on('ready', function(){
 	console.log('mort is god');
@@ -31,7 +28,6 @@ bot.on('message', function(message){
       ]
     message.channel.send('god', {
       file: random_mort[Math.floor(Math.random() * random_mort.length)]
-	.catch(console.error)
     });
   }
 });
@@ -41,5 +37,5 @@ bot.on('guildMemberAdd', function(member)
 	member.send("mort https://cdn.discordapp.com/attachments/603000331055530007/603810563574726666/unknown.png")
 }); 
  
-bot.login(TOKEN)
+bot.login('NjA3MDE3OTgyMzQ2MDAyNDU2.XUTprg.MTbnwhMTeV_rTYa0kD15ax3QpGk')
  
