@@ -25,6 +25,10 @@ bot.on('message', function(message){
       'https://cdn.discordapp.com/attachments/603000331055530007/604917681061363713/mortWW2bruh.png',
       'https://cdn.discordapp.com/attachments/603000331055530007/604637660556034048/mortprivatejet.png',
       'https://cdn.discordapp.com/attachments/603000331055530007/603810563574726666/unknown.png',
+	    'https://cdn.discordapp.com/attachments/603000331055530007/607062024530165780/unknown.png',
+	    'https://cdn.discordapp.com/attachments/603000331055530007/606815553197309952/image0.jpg',
+	    'https://cdn.discordapp.com/attachments/603000331055530007/606815373689356298/image0.jpg',
+	    
       ]
     message.channel.send('god', {
       file: random_mort[Math.floor(Math.random() * random_mort.length)]
