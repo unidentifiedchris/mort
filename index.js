@@ -12,6 +12,15 @@ url: "https://www.twitch.tv/callmecarsonlive"})
     .catch(console.error);
 });
  
+
+477913225816440842
+
+bot.on('message', function(message){
+  if(message.content == 'right'){
+	message.channel.send('<@477913225816440842> mortal')
+  }
+});
+
 bot.on('message', function(message){
   if(message.content == 'mort'){
     const random_mort = [
